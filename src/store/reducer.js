@@ -28,6 +28,7 @@ const reducer = (state = initialState, action) => {
                 articles: state.articles.concat(newArticle)
             }
     }
+    console.log('reducer state:', state);
     return state;
 }
 
